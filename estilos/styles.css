@@ -20,7 +20,8 @@ h2 {
     margin: 0 auto;
 }
 
-#controls-container, #preview {
+#controls-container,
+#preview {
     flex: 1;
     padding: 2rem;
 }
@@ -45,7 +46,7 @@ h2 {
     flex-direction: column;
 }
 
-.range-input input[type="range"]{
+.range-input input[type="range"] {
     -webkit-appearance: none;
     width: 100%;
     height: 24px;
@@ -80,6 +81,7 @@ h2 {
     width: 100%;
     height: 300px;
     background-color: rgb(251, 255, 0);
+
 }
 
 /* área de geração */
