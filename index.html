@@ -17,7 +17,56 @@
                     <label for="horizontal">Deslocamento horizontal:</label>
                     <input type="range" id="horizontal" name="horizontal" min="-100" max="100" value="5">
                 </div>
+                <div class="reference-input">
+                    <input type="text" id="horizontal-value" name="horizontal-value">
+                    <p></p>
+                </div>
             </div>
+            <h2>Configurações da Box Shadow</h2>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="horizontal">Deslocamento vertical:</label>
+                    <input type="range" id="vertical" name="vertical" min="-100" max="100" value="5">
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="vertical" name="vertical">
+                    <p></p>
+                </div>
+            </div>
+            <h2>Configurações da Box Shadow</h2>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="horizontal">Intensidade do borrão (Blur):</label>
+                    <input type="range" id="blur" name="blur" min="0" max="100" value="10">
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="blur-value" name="blur-value">
+                    <p></p>
+                </div>
+            </div>
+            <h2>Configurações da Box Shadow</h2>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="horizontal">Intensidade do espalhamento (Spread):</label>
+                    <input type="range" id="horizontal" name="horizontal" min="-100" max="100" value="3">
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="horizontal-value" name="horizontal-value">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div id="preview">
+            <h2>Preview do efeito gerado:</h2>
+            <div id="box"></div>
+        </div>
+        <div id="generator-rule">
+            <h2>Copie e cole no seu arquivo de css</h2>
+        </div>
+        <div id="rules-area">
+            <p id="rule">box-shadow <span></span></p>
+            <p id="webkit-rule">-webkit-box-shadow <span></span></p>
+            <p id="mox-rule">-moz-box-shadow <span></span></p>
         </div>
     </div>
     <script src="script/script.js" defer></script>
