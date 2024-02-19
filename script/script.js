@@ -99,7 +99,7 @@ const BoxShadow = new BoxShadowGenerator(
     mozRule,
 );
 
-// BoxShadow.initialize();
+BoxShadow.initialize();
 
 // Eventos
 horizontal.addEventListener("input", (e) => {
