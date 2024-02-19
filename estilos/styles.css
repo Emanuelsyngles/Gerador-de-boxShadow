@@ -1,0 +1,50 @@
+* {
+    font-family: "Verdana";
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 1.6rem;
+    text-align: center;
+    color: rgb(124, 119, 116);
+}
+
+#box-shadow-generator {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#controls-container, #preview {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Controles */
+
+.form-control {
+    display: flex;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px dashed rgb(1, 169, 37);
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(29, 145, 165);
+}
+
+.range-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.range-input input[type="range"]{
+    -webkit-appearance: none;
+}
+
+.range-input input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
