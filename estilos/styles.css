@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    padding-bottom: 500px;
+}
+
 h2 {
     margin-bottom: 1.6rem;
     text-align: center;
@@ -68,4 +72,30 @@ h2 {
     width: 30px;
     margin-left: 1rem;
     text-align: center;
+}
+
+/* preview */
+
+#box {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(251, 255, 0);
+}
+
+/* área de geração */
+
+#generated-rule {
+    text-align: center;
+}
+
+#generated-rule p {
+    margin-bottom: .5rem;
+}
+
+#rules-area {
+    background-color: #d3d3d3;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid rgb(25, 146, 120);
+    padding: 1rem;
 }
