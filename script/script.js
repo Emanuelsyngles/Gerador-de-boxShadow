@@ -65,7 +65,7 @@ class BoxShadowGenerator {
         this.applyRule();
         this.showRule();
     }
-}
+} 
 
 
 // Seleção de elementos
